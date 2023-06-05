@@ -6,9 +6,10 @@ public class SignUpPageDataProvider {
     @DataProvider(name = "signUpPageDataProvider")
     public Object[][] SignUpPageDataProvider() {
         return new Object[][] {
-                {"chrome"},
-                {"firefox"},
-                {"edge"}
+                {"chrome", true},
+                {"firefox", true},
+                {"edge", true},
+                {"safari", false}
         };
     }
 }
