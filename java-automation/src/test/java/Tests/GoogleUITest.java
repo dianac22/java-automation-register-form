@@ -28,6 +28,7 @@ public class GoogleUITest {
         acceptCookiesButton.click();
         WebElement searchInput = driver.findElement(By.name("q"));
         searchInput.sendKeys("Google Atelierul Digital");
+        Thread.sleep(1000);
         searchInput.sendKeys(Keys.ENTER);
     }
 }
