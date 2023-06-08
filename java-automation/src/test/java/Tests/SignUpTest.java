@@ -26,5 +26,6 @@ public class SignUpTest extends BaseUITest{
         Assert.assertTrue(signUpPage.checkErr(expectedFirstNameError, "firstName"));
         Assert.assertTrue(signUpPage.checkErr(expectedLastNameError, "lastName"));
         Assert.assertTrue(signUpPage.checkErr(expectedEmailError, "email"));
+        Assert.assertTrue(signUpPage.checkErr(expectedTermsAndConditionError, "terms and conditions"));
     }
 }

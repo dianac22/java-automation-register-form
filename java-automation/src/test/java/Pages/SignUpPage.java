@@ -145,7 +145,7 @@ public class SignUpPage {
         selectNationality(nationality);
         checkTermsAndConditions(termAndConditionSelected);
 
-//        submitButton.submit();
+        submitButton.submit();
     }
 
     public boolean checkErr(String expectedErr, String errorType) {
